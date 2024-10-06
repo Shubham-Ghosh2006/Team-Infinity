@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beyond Sunlight - An Aquatic Chemosynthetic World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="./Images/Team Infinity 1.png" alt="Logo" class="logo-img">
+                </div>
+                <div class="Nasa">
+                    <h2>Nasa International Space App Challenge</h2>
+                </div>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        <div class="title">
+            <h1>Beyond Sunlight - An Aquatic Chemosynthetic World</h1>
+        </div>
+        <section class="content-section">
+            <div class="card">
+                <div class="card-content">
+                   <h2>Habitable Ocean World</h2>
+                    <p>A habitable ocean world is a planet primarily covered by water, where humans and other life forms can live. Advanced technology allows for underwater cities, sustainable ecosystems, and coexistence with marine life. These worlds offer unique challenges, such as maintaining oxygen levels, and balancing human needs with the preservation of oceanic environments, fostering a harmonious relationship with nature.</p>
+                </div>
+                <div class="card-img">
+                    <img src="./Images/Sea 2.jpg" alt="Deep Sea Image">
+                </div>
+            </div>
+
+            <div class="card alternate">
+                <div class="card-content">
+                    <h2>Geographical Features</h2>
+                    <p>Geological features are natural formations on Earth's surface, shaped by processes like erosion, volcanic activity, and tectonic movements. Examples include mountains, valleys, volcanoes, and caves. These features help scientists understand Earth's history, climate changes, and the movement of tectonic plates, offering insights into the planet's structure and evolution over millions of years.
+
+                    </p>
+                </div>
+                <div class="card-img">
+                    <img src="./Images/Hydrothermal Vents.jpg" alt="Extraterrestrial Life Image">
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h2>Diverse Ecosystem</h2>
+                    <p>A diverse ecosystem consists of various species of plants, animals, and microorganisms interacting with each other and their environment. This biodiversity helps maintain balance and resilience in ecosystems, supporting food chains, regulating climate, and enhancing soil fertility. Protecting ecosystem diversity is crucial for sustainability and the overall health of our planet.</p>
+                </div>
+                <div class="card-img">
+                    <img src="./Images/Ocean World.jpg" alt="Space Exploration Image">
+                </div>
+            </div>
+      
+
+        <!-- New Section "Explore the Depths" -->
+       
+            <div class="card alternate">
+                <div class="card-img">
+                    <img src="./Images/Ecological Balance.jpg" alt="Underwater Image">
+                </div>
+                <div class="card-content">
+                  <h2>Ecosystem dynamics</h2>
+                  <p>Refer to the natural processes that drive changes in ecosystems over time, including energy flow, nutrient cycling, and species interactions. Factors like climate change, human activity, and natural events can disrupt these dynamics. Understanding these processes helps in predicting changes and managing ecosystems for sustainability</p>
+                </div>
+            </div>
+        </section>
+        <section class="image_gallery">
+            <div class="slider-container">
+                <div class="slider">
+                    <div class="slide active">
+                        <img src="./Images/Ecological Balance.jpg" alt="Project Image 1">
+                    </div>
+                    <div class="slide">
+                        <img src="./Images/Hydrothermal Vents.jpg" alt="Project Image 2">
+                    </div>
+                    <div class="slide">
+                        <img src="./Images/Ocean World.jpg" alt="Project Image 3">
+                    </div>
+                    <div class="slide">
+                        <img src="./Images/Sea 2.jpg" alt="Project Image 4">
+                    </div>
+                    <!-- Add more slides as needed -->
+                </div>
+        
+                <!-- Navigation buttons -->
+                <button class="prev" onclick="prevSlide()">&#10094;</button>
+                <button class="next" onclick="nextSlide()">&#10095;</button>
+        
+                <!-- Dots indicating the current slide -->
+                <div class="dots-container">
+                    <span class="dot active" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                    <span class="dot" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+        </section>
+        <!-- Add a new section for YouTube videos -->
+<!-- Updated YouTube Section with Hover Animations -->
+<section class="content-section youtube-gallery">
+    <h2>Video </h2>
+    <div class="media-wrapper">
+        <!-- Left image -->
+        <div class="image-container">
+            <img src="https://science.nasa.gov/wp-content/uploads/2024/04/dragonfly-inflight.jpg?w=1536&format=webp">
+        </div>
+
+        <!-- YouTube video in the center -->
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/xn3-0a19sC8?si=kgikoZ3rSMBhtoas" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+
+        <!-- Right image -->
+        <div class="image-container">
+            <img src="https://www.nasa.gov/wp-content/uploads/2021/05/2_orpheus-deploy-1041.jpg">
+        </div>
+    </div>
+</section>
+
+        <footer>
+            <p>&copy; 2024 Nasa Space App | Team Infinity | All Rights Reserved</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

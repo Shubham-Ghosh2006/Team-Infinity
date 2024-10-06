@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="./Images/Team Infinity 1.png" alt="Logo" class="logo-img">
+                </div>
+                <div class="Nasa">
+                    <h2>Nasa International Space App Challenge</h2>
+                </div>
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./about.html">About</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+    <!-- Image Gallery Section -->
+    <section class="gallery">
+        <!-- Large Image Preview -->
+        <div class="gallery-preview">
+            <img id="main-image" src="image1.jpg" alt="Gallery Image">
+            <div class="arrow left" onclick="prevImage()">&#9664;</div>
+            <div class="arrow right" onclick="nextImage()">&#9654;</div>
+        </div>
+
+        <!-- Thumbnails at the bottom -->
+        <div class="thumbnail-container">
+            <img src="./Images/Europa 2.jpg" class="thumbnail" onclick="selectImage(0)">
+            <img src="./Images/Ecological Balance.jpg" class="thumbnail" onclick="selectImage(1)">
+            <img src="./Images/Hydrothermal vents 3.webp.jpg" class="thumbnail" onclick="selectImage(2)">
+            <img src="./Images/Ocean World.jpg" class="thumbnail" onclick="selectImage(3)">
+            <img src="./Images/Underworld.jpg" class="thumbnail" onclick="selectImage(4)">
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Nasa Space App | Team Infinity | All Rights Reserved</p>
+    </footer>
+
+    <script src="gallery.js"></script>      
+</body>
+</html>
